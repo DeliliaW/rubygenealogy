@@ -1,0 +1,308 @@
+ #content {
+   max-width: 1600px;
+   margin: 0 auto;
+}
+header {
+   background-color: #7F563D;
+   text-align: center;
+}
+.logo {
+   display: inline-block;
+}
+.logo img {
+   max-width: 100px;
+}
+#company_name, #slogan {
+   color: #B5CD75;
+   font-family: "Lucida Calligraphy",Arial, Helvetica, sans-serif;
+}
+#company_name {
+   padding-top: 10px;
+}
+.topnav {
+   background-color: #B3815B;
+   overflow: hidden;
+}
+
+.topnav a {
+   float: left;
+   display: block;
+   color: #E2EAB8;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+   border-bottom: 3px solid transparent;
+}
+.topnav a:hover {
+   color: white;
+   border-bottom: 5px solid #7F563D;
+}
+body {
+   background-color: #E2EAB8;
+}
+#my_picture {
+   max-width: 13%;
+   display: block;
+   margin-left: auto;
+   margin-top: -15%;
+   margin-right: 3%;
+   border: 7px solid #B5CD75;
+  }
+.home-title {
+   max-width: 200px;
+   margin: 0 auto;
+   padding-top: 5%;
+   text-align: center;
+   color: #7F563D;
+}
+#company_description {
+   max-width: 700px;
+   margin: 0 auto;
+   color:#7F563D;
+   font-size: 1.3em;
+}
+#my_name {
+  color:#7F563D;
+  max-width: 13%;
+  margin-left: auto;
+}
+#tree {
+   max-width: 400px;
+   display: block;
+   margin: 0 auto;
+   padding-top: 5%;
+   margin-bottom: 5%;
+}
+#services_1 {
+   max-width: 350px;
+   margin: 0 auto;
+   padding-top: 2%;
+   padding-bottom: 2%;;
+   text-align: center;
+   color: #7F563D;
+   font-size: 1.3em;
+   border: 7px solid #B5CD75;
+   background-color: beige;
+}
+#introduction {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 2fr 1fr 1fr;
+}
+.page2-title {
+   grid-column:1/4;
+   grid-row: 1/2;
+   text-align: center;
+   margin: 0 auto;
+   padding-top: 80px;
+}
+#my_background {
+   grid-column: 1/4;
+   grid-row: 1/2;
+   max-width: 100%;
+   height:auto;
+   padding-top: 200px;
+   padding-left: 200px;
+   padding-right: 200px;
+   margin: 0 auto;
+   font-size: 1.2em;
+}
+#gallery1 {
+   grid-column: 1/2;
+   grid-row: 2/3;
+   margin-left: 300px;
+   margin-top: 50px;
+   max-width: 100%;
+   height: auto;
+   border: 7px solid #B5CD75;
+   background-color: beige;
+}
+#Grandma_Baker_name {
+   grid-column: 1/2;
+   grid-row: 2/3;
+   margin:0 auto;
+}
+#gallery2 {
+   grid-column: 3/4;
+   grid-row: 2/3;
+   margin-right: 300px;
+   margin-top: 50px;
+   max-width: 100%;
+   height: auto;
+   border: 7px solid #B5CD75;
+   background-color: beige;
+}
+#Grandma_Brackner_name {
+   margin: 0 auto;
+}
+#fun {
+   width: 550px;
+   margin: 0 auto;
+   font-size: 1.2em;
+   border: 7px solid #B5CD75;
+   background-color: beige;
+}
+#fee_list {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.page3-title {
+   grid-column:1/4;
+   text-align: center;
+   margin: 0 auto;
+   padding-top: 80px;
+}
+#services_2 {
+   grid-column: 1/4;
+   margin: 0 auto;
+   max-width: 900px;
+   height:auto;
+   padding-top: 10px;
+   font-size: 1.2em;
+   text-align: center;
+}
+#plan {
+   grid-column: 1/4;
+   margin: 0 auto;
+   max-width: 900px;
+   height: auto;
+   padding-top: 10px;
+   font-size: 1.2em;
+   text-align: center;
+}
+#report {
+   grid-column: 1/4;
+   margin: 0 auto;
+   max-width: 900px;
+   height: auto;
+   padding-top: 10px;
+   font-size: 1.2em;
+   text-align: center; 
+}
+#historical_image {
+   grid-column: 1/2;
+   display: inline-block;
+   margin-left: 70px;
+   max-width: 100%;
+   height: auto;
+   border: 7px solid #B5CD75;
+   background-color: beige;
+}
+#Robert_Elliott_will {
+   margin: 0 auto;
+   text-align: center;
+}
+#examples {
+   margin-left: 300px;
+}
+#historical_image_2 {
+   grid-column: 3/4;
+   display: inline-block;
+   margin-left: 500px;
+   max-width: 100%;
+   height: auto;
+   border: 7px solid #B5CD75;
+   background-color: beige;
+}
+#Randolph_County_census {
+   margin: 0 auto;
+   text-align: center;
+}
+footer {
+   background-color: #7F563D;
+   color: #B5CD75;
+   padding: 25px 50px;
+   margin-top: 200px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+footer p {
+   padding-top: 20px;
+   padding-left: 20px;
+}
+footer a {
+   color:#E2EAB8;
+}
+footer a:hover {
+   color: white;
+ }
+ /* This style will only be applied to screens with a width of 600px or less */
+@media only screen and (max-width: 600px) {
+   #content {
+     max-width: 100%;
+     margin: 0;
+   }
+   #my_picture {
+     max-width: 30%;
+     margin-left: 35%;
+     margin-top: 5%;
+     margin-right: 35%;
+   }
+   .home-title {
+     padding-top: 20%;
+     font-size: 1.5em;
+   }
+   #company_description {
+     max-width: 100%;
+     margin: 0;
+     font-size: 1em;
+   }
+   #tree {
+     max-width: 100%;
+     margin: 0 auto;
+     padding-top: 20%;
+     margin-bottom: 20%;
+   }
+   #services_1 {
+     max-width: 100%;
+     margin: 0;
+     padding-top: 10%;
+     padding-bottom: 10%;
+     font-size: 1em;
+   }
+   #my_name {
+     max-width: 30%;
+     margin-left: 35%;
+   }
+   #my_background {
+      margin-left: 0;
+      margin-right: 0;
+   }
+   #gallery1 {
+     margin-left: 0;
+     margin-right: 0;
+     background-color: #E2EAB8;
+     border: none;
+   }
+   #gallery2 {
+     margin-left: 0;
+     margin-right: 0;
+     background-color: #E2EAB8;
+     border: none;
+   }
+   #fun {
+      width: 100%;
+   }
+   #services_2 {
+      max-width: 100%;
+   }
+   #plan {
+      max-width: 100%;
+   }
+   #report {
+      max-width: 100%;
+   }
+   #historical_image {
+      margin-left: 0;
+      margin-right: 0;
+   }
+   #historical_image_2 {
+      margin-left: 0;
+      margin-right: 0;  
+   }
+   #examples {
+      margin-left: 0;
+   }
+}
